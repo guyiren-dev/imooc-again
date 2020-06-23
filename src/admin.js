@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col,Button } from 'antd';
+import { Row, Col, } from 'antd';
 import NavLeft from './component/NavLeft';
 import Header from './component/Header';
 import Footer from './component/Footer';
@@ -14,7 +14,7 @@ function Admin() {
       <Col span={20}>
         <Header/>
         <Footer/>
-        <Button>click</Button>
+
       </Col>
     </Row>
   );
